@@ -1,0 +1,101 @@
+/*  */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e5f4ff;
+  font-family: Gill Sans MT;
+  font-size: larger;
+  color: black;
+  min-height: 100%;
+  height: 100%;
+}
+div#ban {
+  text-align: right;
+  font-family: gill sans mt;
+  color: #000066;
+  background-color: #d1e9d1;
+  background-position: left center;
+  height: 130px;
+  background-image: url(leaf.JPG);
+  background-repeat: no-repeat;
+}
+div#ban h1 {
+  margin: 0;
+  padding: 0.3em 0.5em;
+}
+div#top {
+  width: 100%;
+  color: black;
+  background-color: #e5f4ff;
+  position: relative;
+  min-height: 100%;
+  height: 100%;
+}
+div#midleft {
+  padding: 10px 1%;
+  width: 150px;
+  float: left;
+  background-color: #93b8b1;
+}
+div#midleft ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+div#midleft ul li {
+  margin-top: 4px;
+  background-color: #ccfff5;
+}
+div#midleft ul li a {
+  padding: 3px 5px 3px 10px;
+  text-decoration: none;
+  color: #000066;
+}
+div#midright {
+  padding: 10px 1%;
+  float: right;
+  width: 150px;
+  background-color: #eeffe5;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+div#midright ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-image: url();
+  background-color: #93997a;
+}
+div#midright ul li {
+  background-color: white;
+}
+div#midright ul li a {
+  color: #006600;
+}
+div#midmid {
+  padding: 10px 1%;
+  margin-left: 200px;
+  width: 70%;
+  min-height: 100%;
+}
+div#foot {
+  background-color: #e5f4ff;
+  clear: both;
+  background-position: left center;
+  height: 100px;
+  background-image: url(grass.jpg);
+  background-repeat: repeat-x;
+  width: 100%;
+}
+a:link {
+}
+a:visited {
+  color: #006666;
+}
+a:hover, a:active {
+  color: #ffffff;
+  background-color: #8be98b;
+}
+a {
+  text-decoration: none;
+}
